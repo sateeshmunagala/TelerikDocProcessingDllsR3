@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>HTMLPopups</title>
+
+    <script type="text/javascript">
+        window.opener.document.bgColor = "beige";
+
+        function OpenWindow() {
+            //        window.open('file:///C:/aot-tfs/Products/Frameworks/V2.0.4/WebAii/ArtOfTest.WebAii.Installer/QuickStartProjects/QuickStarts_VSTS_CS/Pages/HTMLPopups.htm', 'newwindow', 'height=300,width=500, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, directories=no,status=no');
+            //window.open('http://www.bing.com', 'newwindow', 'height=300,width=500, toolbar=no, menubar=yes, scrollbars=no, resizable=no,location=yes, directories=no,status=no');
+            window.open('http://www.bing.com');
+        }
+
+        function InvokeAlert() {
+            alert("Hi there");
+        }
+        function OpenConfirm() {
+            confirm("Are you sure?");
+        }
+    </script>
+
+</head>
+<body>
+    <a onclick="OpenWindow()">Invoke HTML Popup</a><br />
+	<a onclick="InvokeAlert()">Invoke Alert Popup</a><br />
+	<a onclick="OpenConfirm()">Invoke Confirm Popup</a>
+</body>
+</html>

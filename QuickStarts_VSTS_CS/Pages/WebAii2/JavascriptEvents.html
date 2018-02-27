@@ -1,0 +1,55 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Javascript Event Testing</title>
+		<script type="text/javascript">
+		<!--
+		    function areaClicked(e) {
+		        if (!e) var e = window.event;
+		        if (e.which) { // Detect FF button model
+		            switch (e.button) {
+		                case 0: // left button
+		                    document.getElementById('area1').value = "left";
+		                    break;
+
+		                case 1: // middle button
+		                    document.getElementById('area1').value = "middle";
+		                    break;
+
+		                case 2: // right button
+		                    document.getElementById('area1').value = "right";
+		                    break;
+
+		                default:
+		                    document.getElementById('area1').value = "unknown";
+		            }
+		        } else {
+		            switch (e.button) {
+		                case 1: // Assuming Internet Explorer
+		                    document.getElementById('area1').value = "left";
+		                    break;
+
+		                case 2: // Assuming Internet Explorer
+		                    document.getElementById('area1').value = "right";
+		                    break;
+
+		                case 4:
+		                    document.getElementById('area1').value = "middle";
+		                    break;
+
+		                default:
+		                    document.getElementById('area1').value = "unknown";
+		            }
+		        }
+		    }
+
+		-->
+		</script>
+	</head>
+	<body id="body1">
+	<textarea id="area1" cols="80" rows="3" onmousedown="areaClicked(event);">Not clicked yet</textarea>
+	<br />
+	<textarea id="area2" cols="80" rows="3">Event handling round-trip tester</textarea>
+	<br />
+	</body>
+</html>

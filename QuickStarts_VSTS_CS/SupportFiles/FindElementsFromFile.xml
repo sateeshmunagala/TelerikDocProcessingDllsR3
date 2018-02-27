@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FindExpressionCollectionOfHtmlFindExpression>
+  <FindExpressionItem key="MainTable1">id=mainTable1</FindExpressionItem>
+  <FindExpressionItem key="ProgramsTable">border=1,rules=all,summary=~This table lists</FindExpressionItem>
+</FindExpressionCollectionOfHtmlFindExpression>

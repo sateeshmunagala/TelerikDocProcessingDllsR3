@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D4B33AAE-4EE8-45D0-AA22-89FA1103BADD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>QuickStarts_VSTS_CS</RootNamespace>
+    <AssemblyName>QuickStarts_VSTS_CS</AssemblyName>
+    <WarningLevel>4</WarningLevel>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <PublishUrl>http://localhost/QuickStarts_VSTS_CS/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ArtOfTest.WebAii">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Tests\Advanced.cs" />
+    <Compile Include="Tests\AjaxSupport.cs" />
+    <Compile Include="Tests\AspNetAndTestRegions.cs" />
+    <Compile Include="Tests\BrowserObject.cs" />
+    <Compile Include="Tests\BrowserActions.cs" />
+    <Compile Include="Tests\AspNetInProcHost.cs" />
+    <Compile Include="Tests\ChainedIdentification.cs" />
+    <Compile Include="Tests\CookiesSupport.cs" />
+    <Compile Include="Tests\DesktopActions.cs" />
+    <Compile Include="Tests\DOMElement.cs" />
+    <Compile Include="Tests\ElementID.cs" />
+    <Compile Include="Tests\FindingElements.cs" />
+    <Compile Include="Tests\Frames.cs" />
+    <Compile Include="Tests\HtmlControls.cs" />
+    <Compile Include="Tests\HTMLPopups.cs" />
+    <Compile Include="Tests\JavaScriptSupport.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\TestRegions.cs" />
+    <Compile Include="Tests\UsingAspNetDevSrv.cs" />
+    <Compile Include="Tests\VisualAnnotatedExecution.cs" />
+    <Compile Include="Tests\VisualCapturing.cs" />
+    <Compile Include="Tests\SilverlightHealthcareSample.cs" />
+    <Compile Include="Tests\WebAii2Samples.cs" />
+    <Compile Include="Tests\WebExtensions.cs" />
+    <Compile Include="Tests\Win32Dialogs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Pages\Advanced.htm" />
+    <Content Include="Pages\AjaxSupport.htm" />
+    <Content Include="Pages\AspNetApp\AspNetInProcHost.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Pages\AspNetApp\Bin\ArtOfTest.WebAii.AspNet.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\AspNetApp\DataPage.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Pages\AspNetApp\Default.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Pages\AspNetApp\Images\banner.jpg" />
+    <Content Include="Pages\AspNetApp\Images\bg.jpg" />
+    <Content Include="Pages\BaseUrls\DeploymentServer\default.html" />
+    <Content Include="Pages\BaseUrls\TestServer\default.html" />
+    <Content Include="Pages\Browser.htm" />
+    <Content Include="Pages\BrowserActions.htm" />
+    <Content Include="Pages\ChainedIdentification.htm" />
+    <Content Include="Pages\CookiesSupport.htm" />
+    <Content Include="Pages\DesktopActions.htm" />
+    <Content Include="Pages\DOMElement.htm" />
+    <Content Include="Pages\ElementID.htm" />
+    <Content Include="Pages\FindingElements.htm" />
+    <Content Include="Pages\Frames\Frames.htm" />
+    <Content Include="Pages\Frames\t1.html" />
+    <Content Include="Pages\Frames\t2.html" />
+    <Content Include="Pages\HTMLControls.htm" />
+    <Content Include="Pages\HTMLPopups.htm" />
+    <Content Include="Pages\IEModal\dialog.html" />
+    <Content Include="Pages\IEModal\modal.html" />
+    <Content Include="Pages\Images\Logo.gif" />
+    <Content Include="Pages\Submitted.htm" />
+    <Content Include="Pages\UsingAspNetDevSrv.htm" />
+    <Content Include="Pages\VisualAnnotatedExecution.htm" />
+    <Content Include="Pages\VisualCapturing.htm" />
+    <Content Include="Pages\Waiting.htm" />
+    <Content Include="Pages\WebAii2\JavascriptEvents.html" />
+    <Content Include="Pages\WebAii2\JavascriptFunctions.html" />
+    <Content Include="Pages\WebAii2\Tables.html" />
+    <Content Include="Pages\WebExtensions.htm" />
+    <Content Include="SupportFiles\EmptyTextFile.txt" />
+    <Content Include="Pages\Images\FindEl01.png" />
+    <Content Include="Pages\JavaScriptSupport.htm" />
+    <Content Include="Pages\TestRegions.htm" />
+    <Content Include="Pages\WebAii_Logging.js" />
+    <Content Include="Pages\Win32Dialogs.htm" />
+    <Content Include="SupportFiles\FindElementsFromFile.xml" />
+    <Content Include="ReadMe.txt" />
+    <Content Include="SupportFiles\json2.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Pages\AspNetApp\AppMaster.master">
+      <SubType>ASPXCodeBehind</SubType>
+    </None>
+    <None Include="Pages\AspNetApp\Web.Config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+</Project>

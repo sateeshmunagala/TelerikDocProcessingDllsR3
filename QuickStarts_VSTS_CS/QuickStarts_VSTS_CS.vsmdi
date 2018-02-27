@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestLists xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestList name="UsingAspNetDevSrv" id="01ce0cd4-814a-49d0-9d11-3ba9c364b0df" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="a66868b3-4732-6535-db6e-b0b7878c680b" name="UseAspNetDevServer" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="AjaxSupport" id="1ab6485f-1c26-4415-9f3a-31d8134a69c5" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="166d5bc7-eea2-3f39-d301-56e48421b391" name="WaitingForSinglePageChange" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="b43802e0-d9b1-2774-4f66-889e7b3ff947" name="WaitingForMultiplePageChanges" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="TestRegions" id="2ea77a01-6f43-4023-8478-6d61e45b6431" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="fe7afd9c-e5f2-c5d3-a7f6-fb3b03754e2f" name="UsingFindExpressionAttributeWithTestRegions" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="a3adbb2b-6f4f-f38b-5488-da644f761b18" name="AccessingTestRegions" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="1f94c1e9-afc2-a872-d114-0b660adec233" name="AccessingElementsUsingTestRegions" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="DesktopActions" id="45c43977-b846-43e5-bf2a-d293b737433c" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="09426040-a86e-6db5-695e-83d3f069a16a" name="SimpleWin32UI" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="59f95bd5-1e7a-8abe-a11b-00da90292e75" name="PureDesktopUIActions" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="HTMLPopups" id="47e48b26-fb32-460e-ba41-a29d05d9dbcc" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="a68f5234-b939-4399-7a1f-257578312ded" name="AccessHTMLPopups" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="BrowserObject" id="52281d33-e39e-43c3-998c-7f75bb075b0f" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="4e07ad82-8399-9254-1a70-4ccfff94c51a" name="ControllingBrowserInstance" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="7cf9a48b-3eee-ef1a-27b7-bfaf3c1112a0" name="CommonBrowserMethods" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="d7e83504-6cad-5b32-cb73-2194b9f3c23b" name="ManageDifferentBrowserTypes" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="3405b1c8-6ac8-e8f0-60a9-da72c2cbe46c" name="MultiBrowserInstanceSupport" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="9d209ddc-c692-9876-f522-af8d40e735ec" name="AccessingIENativeObject" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="0f9b0e4c-cd02-3a1f-5480-b73bd042f96d" name="CommonBrowserProperties" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="Silverlight" id="52a9a621-6e36-4c19-9849-eeb4cbc44393" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="945d30b0-39b3-300f-ee70-d0949993e3ee" name="HealthCareDemo" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="CookieSupport" id="59efa5b4-375a-4638-9e48-d702c9386611" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="05870b37-804b-0303-3ac5-7ae3508b2a6e" name="SetGetDeleteCookies" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="WebExtensions" id="607fa7d5-3668-4e64-b7f4-64818a5ba6d3" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="6e9fbdc2-e805-e5bf-cc7b-d06bbec5ab50" name="WebExtTest3" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="7e1ac553-c1c3-26ef-d9b5-011ca5d00810" name="WebExtTest1" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="738c60cf-79ee-c593-fe77-af1ed9f65927" name="WebExtTest2" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="Advanced" id="621c04a6-6daa-4ab4-bd91-8311e4fe7308" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="b6694d1e-94db-876c-1e61-787dfa6ac74b" name="IEModalDialogsSupport" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="dd5db1ea-2ecf-5220-e18b-3133b4cf9601" name="UsingBaseUrl" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="0af91eb0-e7bb-0164-f84c-d2589d993a5c" name="NativeWin32WindowSupport" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="ac172c7d-a9e3-6261-d01d-104489921755" name="ExtensibleWebAiiEvents" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="DOM Element" id="71ef1a94-0397-47f2-8c6b-0a8f0b9c3138" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="0d22f895-78ed-bbd8-f6ff-8a1a4d3270b3" name="InspectingAttributes" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="1ae225cc-5100-1a0e-7d05-97f7c958b692" name="SiblingNavigation" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="5ff89f0c-24a5-eece-1c80-de320cb17ce4" name="NavigatingDOM" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="822548b8-741a-76bd-a0e1-4a055148e554" name="InspectingElementContent" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="ea48c23d-b3fa-f4b4-1186-0a80c0136217" name="DomTests" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="ElementID" id="7a5711a3-52f5-4eeb-b8d2-ce2aeebc1f38" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="80e47dc2-9324-3ad8-9e8a-27fb01cbe771" name="FindElementByExpression" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="37b86224-d121-7aea-5673-133e6f14b284" name="FindElementOtherExamples" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="57bea655-1dd9-b982-227a-ad943374c256" name="FindElementsByID" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="Lists of Tests" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6" />
+  <TestList name="HTML Controls" id="9592d428-ef98-459b-9dc8-5bd3429490b7" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="bbe66a6e-1ffa-b914-f350-00d0f4dde1f5" name="WaitForContent" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="585c8458-926f-7513-be66-47aa88c3f5a7" name="MigratingElementObjectToHtmlControls" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="ccf243b7-c0d6-bfcf-1c18-59ff98865e91" name="HtmlSelectExamples" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="6fee376d-6f95-7dff-5869-ff5bcdb3a7bb" name="HtmlStyleClass" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="a7e0af1f-69c0-6bf2-f733-d6ed5df56bea" name="SetGetValuesFromDOM" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="1c129de4-9620-b343-31a4-d3e28febb634" name="SubmitAdTest" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="cb2360df-cf16-7294-64ff-5e084db1e6db" name="WaitForVisible" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="bcb614ba-51de-12b4-3124-a9a2385336b6" name="WaitForAttributes" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="19224d91-afa4-0f88-bd33-5d48bedacf17" name="CommonHtmlControlMethodsProperties" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="e16ab52a-744c-0eac-af0c-a3381e6a22ef" name="FindingControls" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="10cd18e8-dcd0-0374-40f3-fd6d7ee68bdc" name="HtmlElementsDragDropSupport" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="240eebdd-43ea-aeee-bb09-30af575cf41b" name="HtmlAssertTests" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="e83c8d1c-922f-f14d-90b1-8bb2d3c94e0a" name="WaitForStyles" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="JavaScriptSupport" id="9eb80f9f-ae3f-405b-ae72-831d5e11044d" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="15ee1673-4734-3815-16e0-da9b9eefe0a4" name="JsMethodCall" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="9b85cd61-0923-4a87-1c85-31833a6915b1" name="LoggingFromJs" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="30be3f99-fbbf-a45c-7c3b-02280a23aae9" name="JsMethodCallWithReturnValue" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="8aab106a-bb2f-d484-18a8-2e7fb99dd617" name="JsEventInvocation" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="AspnetInProcHost" id="b169005c-0b74-494d-b175-cbedeaf498f2" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="5205b9c2-5d59-8cfb-e3ec-95a10040f3b0" name="AspNetInProcTesting" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="Win32Dialogs" id="bbed7257-9fb5-460e-ad4b-74e4fbc3b911" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="02f34618-209e-a453-0bed-050b1af0a890" name="FileUpLoadDialogUsingAttributes" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="8d4ca7d3-66cc-9c6c-1572-1b923ead4288" name="FileUpLoadDialog" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="96f131ff-d2f3-8466-672f-4fd494f64a17" name="DownloadDialogs" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="45c1ffcd-68de-01ef-7626-fc5f926543d2" name="LogonDialogTest" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="716a804b-3c2b-5ab5-e8f6-ca4d9dd87db5" name="AlertDialogs" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="98e4c394-2337-aacb-ec5d-4151148da2b7" name="LogonDialogWithAttributes" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="bebf0abc-1b1f-b7de-2a40-4ea3ffb69ee7" name="AlertDialogsUsingAttributes" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="faeb44c5-6227-2882-edad-6dcb8c223dba" name="DoCustomDialogHandlingForBuiltInDialogs" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="c56266cb-7891-9b31-63cb-ac70884f28e5" name="FileUploadUsingHtmlControls" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="FindingElements" id="c06091f6-a9fd-40ed-bdb5-ed9435d96158" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="dfabcbee-af0a-54ee-c83c-6f8bb5443057" name="UsingFindFromFile" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="e21da1c9-81bd-af8f-b2ca-d299afef0b04" name="FindByTagIndex" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="dddf68bf-08b5-7977-94d5-82769cdb8b68" name="FindAllByxx" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="6c1e5e91-4593-5e7d-4001-342d2a8b1684" name="FindByChainedFindExpression" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="01506d35-8e97-99b4-a708-b5373a95a11e" name="GenerateElemIDFile" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="190de918-602e-f95d-caa9-8943276350ef" name="FindByContent" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="d778abcc-cdc4-9605-0832-3b64a1e6055b" name="FindByExpression" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="7f9b57e9-1a8b-a6b4-39ec-9bbf3fd583e0" name="FindByName" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="729069bb-5615-2f2d-0ec4-72e770439f57" name="FindByXPath" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="108a5820-9d69-56f5-cc96-56f47c4a72ac" name="FindById" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="40233e7f-d9f1-d516-7e53-1e828e2d5360" name="UsingFindExpressionTestAttribute" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="39ff409f-d216-232d-fc40-6e9e22b1108f" name="FindByNodeIndexPath" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="3f71c07a-9873-6408-1070-dc1a7397a3ca" name="FindByTagAttributes" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="7f632b0b-a2ae-d744-59ac-a1620d1c7932" name="UsingLoadFromFile" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="VisualAnnotatedEecution" id="c9dea842-ff10-4f1d-b617-62a260454c32" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="00ccffe5-e2a7-5d70-67e5-9ad8c4eaff55" name="EnableAnnotation" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="c36e1cfb-187a-a6a1-1d2e-821d45b092ce" name="ManualAnnotation" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="Frames" id="d99b0908-f098-4306-a85a-cb613faf7153" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="bbf05379-63d2-8916-d172-84407556a779" name="FramesAction" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="AspNetAndTestRegions" id="e01c21c2-60ff-4b2a-bd76-ce710d2fc017" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="78df0d0e-4ac1-1224-ac77-ebcae377241c" name="DataPageTest" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="bb72562b-c483-4572-a372-1c0dd0c97d79" name="LogInTest" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="VisualCapturing" id="e5f70121-9bd2-45df-8687-e5a8db19c449" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="a47472d9-07ad-0a2f-4737-a966fdcc3d82" name="VisuallyCapturingPageElements" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="14c9fa82-73bc-d4c5-4546-82bd919ed3b6" name="VisuallyCapturingBrowserStates" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="WebAii2" id="f6225640-8512-4d58-bbbf-5bd5b0c119e0" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="5eaa78ec-d541-8b4b-cb49-57e7f7afbbf5" name="JavascriptEventNotifications" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="d8488193-3374-f6bc-00d2-a9d44368e22d" name="ChainedFindExpressions" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="3f05de28-8c5b-7108-acc1-bdff66add6a8" name="MouseEvents" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="43ff4c55-8bcb-b9c1-aa72-494312d4ba84" name="ImageDetection" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="7df5ff92-2325-427c-4fa0-c6bf162f6343" name="JavascriptReturnsObject" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="75c72fe6-f4d4-beaf-5b81-345f89c7ca7c" name="JavascriptReturnsJson" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="BrowserActions" id="f754d40f-9f8b-4f59-be21-165162c4e05c" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="e2f0d1dd-5a70-5520-69b4-60d5ffb0891a" name="ClickAnElement" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="0f827ee6-050b-0ba3-65fd-a07a012a8177" name="SetTextForAnElement" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="072e0bac-24a1-a1f7-114e-fdd7cb98d9c9" name="SelectFromDropDownOrList" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="7bccd265-237a-f31a-6f28-f8add4fe5dff" name="CheckAnElement" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="ChainedIdentification" id="fc4a0cc5-f370-4a3a-a430-9fad4397a82c" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink id="052e9f53-aa09-4259-61d8-535d1b2ce384" name="ChainedIdentificationTest" storage="bin\debug\quickstarts_vsts_cs.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+</TestLists>

@@ -1,0 +1,572 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Title of page</title>
+<script type="text/javascript">
+		function myClick() {
+		    // innerText works for IE/Safari
+		    document.getElementById("label1").innerText = "Clicked";
+		    // textContent works for Firefox/Safari
+		    document.getElementById("label1").textContent = "Clicked";
+		}
+	</script>
+<style type="text/css">
+.style1 {
+	text-align: center;
+	font-size: x-large;
+}
+.style2 {
+	text-align: center;
+}
+.stylepadding {
+	padding: 12px;
+	color: gray;
+	background-color: aqua;
+}
+.style3 {
+	text-align: right;
+}
+</style>
+</head>
+
+<body>
+
+<form id="form1" action="HtmlControls.htm" class="stylepadding">
+	<h1 id="label1">Not clicked </h1>
+	<br />
+	<a id="anchor" href="http://www.google.com" target="_self">Link</a> <br />
+	<button id="htmlbutton" causesvalidation="true" name="htmlbuttonName" onclick="myClick(); return false;">
+	Html Button</button><br />
+	<input id="Button1" onclick="myClick();" type="button" value="button" /><br />
+	<br />
+	<input id="Text1" readonly="readonly" type="text" value="Read Only Text Input" /><br />
+	<br />
+	<input id="File1" type="file" /><br />
+	<br />
+	<input id="Password1" type="password" /><br />
+	<br />
+	<input id="Checkbox1" checked="checked" onchange="Alert()" onclick="Alert()" type="checkbox" /><br />
+	<br />
+	<input id="Radio1" type="radio" /><br />
+	<br />
+	<input id="Hidden1" type="hidden" /><br />
+	<br />
+	<input id="image1" alt="Art of Test Logo" src="images\logo.gif" type="image" />
+	<br />
+	<br />
+	<textarea id="TextArea1" cols="20" rows="2">A TextArea</textarea><br />
+	<br />
+	<table id="outertable1" style="width: 343px">
+		<tr>
+			<td>
+			<table id="innerTable1">
+				<tr>
+					<td>TD21 </td>
+					<td>TD22 </td>
+				</tr>
+			</table>
+			</td>
+			<td>TD1 </td>
+			<td>TD2 </td>
+		</tr>
+		<tr>
+			<td>TD3 </td>
+			<td>TD4 </td>
+			<td>TD5 </td>
+		</tr>
+		<tr>
+			<td>TD6 </td>
+			<td>TD7 </td>
+			<td>TD8 </td>
+		</tr>
+	</table>
+	<br />
+	<img alt="Art of Test Logo" src="images\logo.gif" /><br />
+	<br />
+	Color: <select id="color_product">
+	<option selected="selected" value="Blue">Color : Blue</option>
+	<option value="Green">Color : Green</option>
+	<option value="Yellow">Color : Yellow</option>
+	<option value="Orange">Color : Orange</option>
+	<option value="Black">Color : Black</option>
+	</select> <br />
+	<br />
+	Size: <select id="size_product">
+	<option selected="selected" value="3T">Size : 3T</option>
+	<option value="4T">Size : 4T</option>
+	<option value="5T">Size : 5T</option>
+	<option value="1M">Size : 1M</option>
+	<option value="2M">Size : 2M</option>
+	</select> <br />
+	<br />
+	Option:&nbsp; <select id="option_product">
+	<option selected="selected" value="Frills">Option : Frills</option>
+	<option value="Rolled">Option : Rolled</option>
+	<option value="Pressed">Option : Pressed</option>
+	<option value="Windows">Option : Windows</option>
+	<option value="Folded">Option : Folded</option>
+	</select><br />
+	<br />
+	<div id="AutoInfo" style="width: 200px; height: 200px; overflow: scroll;">
+		<span style="width: 300; height: 300">
+		<p>When it comes time to fill up the tank, it&#39;s not easy to justify a full-size
+		sport utility. But even as you pour 28 gallons of regular unleaded into
+		the
+		<a href="http://www.automotive.com/2008/09/ford/expedition/index.html">Expedition</a>&#39;s
+		gas tank, you can take heart in this sport-utility&#39;s ability to make a family
+		vacation not only possible but also practical.</p>
+		<p>Ford is the first to admit that the sales of full-size, truck-based sport
+		utilities have dropped some 40 percent since 2004 as people turn to smaller,
+		more fuel-efficient, car-based utilities for their daily transportation.
+		But <a href="http://www.automotive.com/new-cars/01/ford/index.html">Ford</a>
+		also reminds us that fuel prices have simply chased away the people who
+		really shouldn&#39;t have been driving a full-size sport-utility in the first
+		place.</p>
+		<p>The Expedition is meant for utility, not profiling. It carries people,
+		hauls gear, tows boats, and pulls campers. The Expedition offers towing
+		capacities in the 9000-pound range. When it&#39;s equipped with four-wheel drive,
+		the Expedition will also get you there whether the road is dry, wet, snowy,
+		or even when there&#39;s hardly any road at all.</p>
+		<p>Ford reminds us that full-size sport-utilities can still play an important
+		role in our everyday lives. To start with, Ford&#39;s research shows that 92
+		percent of the Expedition owners use their big SUV for vacations. Some 60
+		percent use it to transport outdoor sports gear, while 40 percent of Expedition
+		owners use the vehicle&#39;s towing capacity. Some 84 percent routinely carry
+		more than three passengers behind the front row of seats.</p>
+		<p>Moreover, Ford notes that the place of the sport-utility in American
+		life isn&#39;t going to disappear. Sales of personal watercraft have increased
+		9.2 percent since 2005, while there will be some 6.3 million households
+		with tow-able recreational campers by 2010. Finally, three-generation families
+		are becoming a substantial part of the vacation picture, so plenty of passenger
+		seats are a necessity, not just a convenience.</p>
+		<p>With this in mind, the Expedition has been thoroughly revised for 2007
+		to make it a platform for family-friendly adventures. Every aspect of its
+		utility has been improved: towing capacity, passenger comfort and even driving
+		enjoyment. Meanwhile, a new, extended-wheelbase Expedition EL adds more
+		cargo-carrying capacity, especially noticeable when trying to load groceries
+		or gear behind the third-row seats.</p>
+		<p>Ford has made the Expedition even more family-friendly by substantially
+		reducing its price. While the reductions have more to do with real-world
+		transaction prices of the past and mirror similar pricing strategies at
+		<a href="http://www.automotive.com/new-cars/01/chrysler/index.html">Chrysler</a>
+		and General Motors, the fact remains that a base model XLT Expedition retails
+		for $29,995, some $5485 less than in &#39;06. Ford tells us that Expedition
+		models across the range have been reduced in price by an average of $4300.
+		Just as important, a new warranty extends bumper-to-bumper protection to
+		three years/36,000 miles, while the powertain is covered for five years/60,000
+		miles. In addition, the warranty is fully transferable to subsequent owners.</p>
+		</span></div>
+	<br />
+	<div id="EasternDivision" style="width: 100px; height: 100px">
+		Eastern US Division </div>
+	<br />
+	<div id="topmost">
+		Top most text
+		<div id="middle">
+			Middle level text
+			<div id="innermost">
+				Innermost text</div>
+		</div>
+	</div>
+	<p></p>
+	<div class="style3">
+	<span id="Warning" style="color: Red; margin: 30px; font-style: italic; text-align:right">Warning message here</span>
+	</div>
+	<p></p>
+</form>
+<form id="Form2" action="submitted.htm" method="post" name="Form2" target="_self">
+	<table width="100%">
+		<tr valign="top">
+			<td class="style1" colspan="2" width="100%"><strong>Place Ad
+			</strong></td>
+		</tr>
+		<tr valign="top">
+			<td class="row" colspan="2" width="100%">
+			<p class="style2">Describe your vehicle: </p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="subhead"></td>
+			<td class="subhead">All fields are required except where indicated.
+			</td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">Ad type: </td>
+			<td class="row"><b>Vehicle for sale - <span id="lblAd_Type">Silver Ad
+			- 5 Photos</span></b> </td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">Year: </td>
+			<td class="row"><select id="drpYear" name="drpYear">
+			<option selected="selected" value="0">- Select -</option>
+			<option value="2007">2007</option>
+			<option value="2006">2006</option>
+			<option value="2005">2005</option>
+			<option value="2004">2004</option>
+			<option value="2003">2003</option>
+			<option value="2002">2002</option>
+			<option value="2001">2001</option>
+			<option value="2000">2000</option>
+			<option value="1999">1999</option>
+			<option value="1998">1998</option>
+			<option value="1997">1997</option>
+			<option value="1996">1996</option>
+			<option value="1995">1995</option>
+			<option value="1994">1994</option>
+			<option value="1993">1993</option>
+			<option value="1992">1992</option>
+			<option value="1991">1991</option>
+			<option value="1990">1990</option>
+			<option value="1989">1989</option>
+			<option value="1988">1988</option>
+			<option value="1987">1987</option>
+			<option value="1986">1986</option>
+			<option value="1985">1985</option>
+			<option value="1984">1984</option>
+			<option value="1983">1983</option>
+			<option value="1982">1982</option>
+			<option value="1981">1981</option>
+			<option value="1980">1980</option>
+			<option value="1979">1979</option>
+			<option value="1978">1978</option>
+			<option value="1977">1977</option>
+			<option value="1976">1976</option>
+			<option value="1975">1975</option>
+			<option value="1974">1974</option>
+			<option value="1973">1973</option>
+			<option value="1972">1972</option>
+			<option value="1971">1971</option>
+			<option value="1970">1970</option>
+			<option value="1969">1969</option>
+			<option value="1968">1968</option>
+			<option value="1967">1967</option>
+			<option value="1966">1966</option>
+			<option value="1965">1965</option>
+			<option value="1964">1964</option>
+			<option value="1963">1963</option>
+			<option value="1962">1962</option>
+			<option value="1961">1961</option>
+			<option value="1960">1960</option>
+			<option value="1959">1959</option>
+			<option value="1958">1958</option>
+			<option value="1957">1957</option>
+			<option value="1956">1956</option>
+			<option value="1955">1955</option>
+			<option value="1954">1954</option>
+			<option value="1953">1953</option>
+			<option value="1952">1952</option>
+			<option value="1951">1951</option>
+			<option value="1950">1950</option>
+			<option value="1949">1949</option>
+			<option value="1948">1948</option>
+			<option value="1947">1947</option>
+			<option value="1946">1946</option>
+			<option value="1945">1945</option>
+			<option value="1944">1944</option>
+			<option value="1943">1943</option>
+			<option value="1942">1942</option>
+			<option value="1941">1941</option>
+			<option value="1940">1940</option>
+			<option value="1939">1939</option>
+			<option value="1938">1938</option>
+			<option value="1937">1937</option>
+			<option value="1936">1936</option>
+			<option value="1935">1935</option>
+			<option value="1934">1934</option>
+			<option value="1933">1933</option>
+			<option value="1932">1932</option>
+			<option value="1931">1931</option>
+			<option value="1930">1930</option>
+			<option value="1929">1929</option>
+			<option value="1928">1928</option>
+			<option value="1927">1927</option>
+			<option value="1926">1926</option>
+			<option value="1925">1925</option>
+			<option value="1924">1924</option>
+			<option value="1923">1923</option>
+			<option value="1922">1922</option>
+			<option value="1921">1921</option>
+			<option value="1920">1920</option>
+			<option value="1919">1919</option>
+			<option value="1918">1918</option>
+			<option value="1917">1917</option>
+			<option value="1916">1916</option>
+			<option value="1915">1915</option>
+			<option value="1914">1914</option>
+			<option value="1913">1913</option>
+			<option value="1912">1912</option>
+			<option value="1911">1911</option>
+			<option value="1910">1910</option>
+			<option value="1909">1909</option>
+			<option value="1908">1908</option>
+			<option value="1907">1907</option>
+			<option value="1906">1906</option>
+			<option value="1905">1905</option>
+			<option value="1904">1904</option>
+			<option value="1903">1903</option>
+			<option value="1902">1902</option>
+			<option value="1901">1901</option>
+			<option value="1900">1900</option>
+			</select> </td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">Make: </td>
+			<td class="row">
+			<select id="ctl00_MainContent_drpMake" name="ctl00$MainContent$drpMake">
+			<option selected="selected" value="0">- Select -</option>
+			<option value="1">Alfa Romeo</option>
+			<option value="2">AM General</option>
+			<option value="3">AMC</option>
+			<option value="166">Amphicar</option>
+			<option value="102">Aston Martin</option>
+			<option value="4">Audi</option>
+			<option value="104">Austin Healey</option>
+			<option value="105">Bentley</option>
+			<option value="5">BMW</option>
+			<option value="107">Bugatti</option>
+			<option value="6">Buick</option>
+			<option value="7">Cadillac</option>
+			<option value="110">Checker</option>
+			<option value="8">Chevrolet</option>
+			<option value="9">Chrysler</option>
+			<option value="113">Citroen</option>
+			<option value="114">Cobra</option>
+			<option value="115">Cooper</option>
+			<option value="116">Cushman</option>
+			<option value="117">Daimler</option>
+			<option value="10">Datsun</option>
+			<option value="119">DeSoto</option>
+			<option value="120">DeTomaso</option>
+			<option value="11">Dodge</option>
+			<option value="122">Duesenberg</option>
+			<option value="123">Ferrari</option>
+			<option value="124">Fiat</option>
+			<option value="12">Ford</option>
+			<option value="13">Geo</option>
+			<option value="14">GMC</option>
+			<option value="15">Honda</option>
+			<option value="127">Hudson</option>
+			<option value="165">Hummer</option>
+			<option value="16">Jaguar</option>
+			<option value="17">Jeep</option>
+			<option value="130">Lamborghini</option>
+			<option value="18">Land Rover</option>
+			<option value="19">Lincoln</option>
+			<option value="133">Maserati</option>
+			<option value="20">Mazda</option>
+			<option value="134">McLaren</option>
+			<option value="21">Mercedes-Benz</option>
+			<option value="22">Mercury</option>
+			<option value="137">Metropolitan</option>
+			<option value="138">MG</option>
+			<option value="139">Morgan</option>
+			<option value="140">Morris</option>
+			<option value="141">Moto Guzzi</option>
+			<option value="142">Nash</option>
+			<option value="23">Nissan</option>
+			<option value="24">Oldsmobile</option>
+			<option value="144">Opel</option>
+			<option value="145">Packard</option>
+			<option value="146">Peugeot</option>
+			<option value="147">Pierce Arrow</option>
+			<option value="25">Plymouth</option>
+			<option value="26">Pontiac</option>
+			<option value="27">Porsche</option>
+			<option value="151">Renault</option>
+			<option value="152">Rolls-Royce</option>
+			<option value="153">Rover</option>
+			<option value="28">Saab</option>
+			<option value="29">Saturn</option>
+			<option value="155">Shelby</option>
+			<option value="156">Studebaker</option>
+			<option value="157">Stutz</option>
+			<option value="30">Subaru</option>
+			<option value="159">Sunbeam</option>
+			<option value="31">Suzuki</option>
+			<option value="32">Toyota</option>
+			<option value="33">Triumph</option>
+			<option value="34">Volkswagen</option>
+			<option value="35">Volvo</option>
+			<option value="164">Willys</option>
+			<option value="36">Other</option>
+			</select> </td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">Model: </td>
+			<td class="row">
+			<input id="txtModel" maxlength="50" name="txtModel" type="text" />
+			</td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">Price: </td>
+			<td class="row">
+			<input id="txtPrice" maxlength="50" name="txtPrice" type="text" /> US
+			Dollars - No cents - No commas</td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">Phone: </td>
+			<td class="row">
+			<input id="txtPhone" maxlength="15" name="txtPhone" style="background-color: rgb(255, 255, 160);" type="text" />
+			</td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">Email: </td>
+			<td class="row">
+			<input id="txtEmail" maxlength="100" name="txtEmail" style="text-transform: none; background-color: rgb(255, 255, 160);" type="text" />
+			</td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">Allow visitors to Email you: </td>
+			<td class="row"><select id="drpAllowEmail" name="drpAllowEmail">
+			<option selected="selected" value="0">- Select -</option>
+			<option value="1">Yes</option>
+			<option value="2">No</option>
+			</select> </td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="row"><b>Describe your vehicle: </b><br />
+			<br />
+			List special features<br />
+			Engine size<br />
+			Appearance<br />
+			Modifications<br />
+			Special parts<br />
+			Etc. </td>
+			<td class="row">
+			<textarea id="txtDescription" cols="60" name="txtDescription" rows="12"></textarea>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">First Name: </td>
+			<td class="row">
+			<input id="txtFname" maxlength="50" name="txtFname" style="background-color: rgb(255, 255, 160);" type="text" />
+			Not shown in ad </td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">Last Name: </td>
+			<td class="row">
+			<input id="txtLname" maxlength="50" name="txtLname" style="background-color: rgb(255, 255, 160);" type="text" />
+			Not shown in ad </td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">Company: </td>
+			<td class="row">
+			<input id="txtCompany" maxlength="100" name="txtCompany" type="text" />
+			Not shown in ad - Optional </td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">Address: </td>
+			<td class="row">
+			<input id="txtAddress" maxlength="100" name="txtAddress" style="background-color: rgb(255, 255, 160);" type="text" />
+			Not shown in ad </td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">City: </td>
+			<td class="row">
+			<input id="txtCity" maxlength="50" name="txtCity" style="background-color: rgb(255, 255, 160);" type="text" />
+			</td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">State/Province: </td>
+			<td class="row">
+			<select id="drpState" name="drpState" style="background-color: rgb(255, 255, 160);">
+			<option selected="selected" value="0">- Select -</option>
+			<option value="1">Alabama</option>
+			<option value="2">Alaska</option>
+			<option value="5">Arizona</option>
+			<option value="6">Arkansas</option>
+			<option value="14">California</option>
+			<option value="15">Colorado</option>
+			<option value="16">Connecticut</option>
+			<option value="17">Delaware</option>
+			<option value="18">District of Columbia</option>
+			<option value="20">Florida</option>
+			<option value="21">Georgia</option>
+			<option value="23">Hawaii</option>
+			<option value="24">Idaho</option>
+			<option value="25">Illinois</option>
+			<option value="26">Indiana</option>
+			<option value="27">Iowa</option>
+			<option value="28">Kansas</option>
+			<option value="29">Kentucky</option>
+			<option value="30">Louisiana</option>
+			<option value="31">Maine</option>
+			<option value="34">Maryland</option>
+			<option value="35">Massachusetts</option>
+			<option value="36">Michigan</option>
+			<option value="37">Minnesota</option>
+			<option value="38">Mississippi</option>
+			<option value="39">Missouri</option>
+			<option value="40">Montana</option>
+			<option value="41">Nebraska</option>
+			<option value="43">Nevada</option>
+			<option value="45">New Hampshire</option>
+			<option value="46">New Jersey</option>
+			<option value="47">New Mexico</option>
+			<option value="48">New York</option>
+			<option value="49">North Carolina</option>
+			<option value="50">North Dakota</option>
+			<option value="54">Ohio</option>
+			<option value="55">Oklahoma</option>
+			<option value="57">Oregon</option>
+			<option value="59">Pennsylvania</option>
+			<option value="63">Rhode Island</option>
+			<option value="65">South Carolina</option>
+			<option value="66">South Dakota</option>
+			<option value="67">Tennessee</option>
+			<option value="68">Texas</option>
+			<option value="69">Utah</option>
+			<option value="70">Vermont</option>
+			<option value="72">Virginia</option>
+			<option value="73">Washington</option>
+			<option value="74">West Virginia</option>
+			<option value="75">Wisconsin</option>
+			<option value="76">Wyoming</option>
+			<option value="100">Alberta</option>
+			<option value="101">British Columbia</option>
+			<option value="102">Manitoba</option>
+			<option value="103">New Brusnwick</option>
+			<option value="104">Newfoundland</option>
+			<option value="105">Nova Scotia</option>
+			<option value="106">Ontario</option>
+			<option value="107">Prince Edward Island</option>
+			<option value="108">Quebec</option>
+			<option value="109">St. Pierre &amp; Miguelon</option>
+			<option value="110">Saskatchewan</option>
+			<option value="111">Yukon Territory</option>
+			</select> </td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">Postal Code: </td>
+			<td class="row">
+			<input id="txtZip" maxlength="5" name="txtZip" style="background-color: rgb(255, 255, 160);" type="text" />
+			Not shown in ad </td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">Username: </td>
+			<td class="row">
+			<input id="txtUsername" maxlength="100" name="txtUsername" style="text-transform: none;" type="text" />
+			Not shown in ad<br />
+			</td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">Password: </td>
+			<td class="row">
+			<input id="txtPassword" maxlength="50" name="txtPassword" style="text-transform: none;" type="password" />
+			Not shown in ad<br />
+			</td>
+		</tr>
+		<tr valign="top">
+			<td align="right" class="rowbold">
+			<img height="1" src="/images/blank.gif" width="175" /> </td>
+			<td class="row" width="100%">
+			<input id="submit" class="button" language="javascript" name="submit" onclick="if (typeof(Page_ClientValidate) == 'function') Page_ClientValidate(); " type="submit" value="&gt;&gt;&gt;&gt; Next &gt;&gt;&gt;&gt;" />
+			<input id="Cancel" class="button" name="Cancel" type="submit" value="Cancel" /></td>
+		</tr>
+	</table>
+</form>
+
+</body>
+
+</html>

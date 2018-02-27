@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<BODY>
+
+<SCRIPT>
+function fnRandom(iModifier){
+   return parseInt(Math.random()*iModifier);
+}
+function fnSetValues(){
+   var sFeatures="dialogHeight: " + 200 + "px;";
+   return sFeatures;
+}
+
+function fnOpen(){
+   var sFeatures=fnSetValues();
+   window.showModalDialog("dialog.html", "",
+      sFeatures)
+}
+
+</SCRIPT>
+
+<FORM NAME=oForm>
+
+Create Modal Dialog Box
+<INPUT TYPE="button" VALUE="Push To Create"
+   onclick="fnOpen()">
+</FORM>
+
+</BODY>
+</HTML>

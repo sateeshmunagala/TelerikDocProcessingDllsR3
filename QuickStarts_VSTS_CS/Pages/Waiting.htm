@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Waiting Test</title>
+		
+		<style type="text/css">
+        DIV.CssStyle1
+        {
+           font: 17pt Verdana;
+           font-weight:900;
+           color: Green;
+           background-Color:yellow;
+        }
+
+        div.CssStyle2
+        {
+           font: 15pt Times;
+           font-weight:250;
+           color: Blue;
+           background-Color:green;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        var timeOut = 4000;
+        var action = 0;
+        var mainDiv;
+
+        function doAction(actionType)
+        {
+            mainDiv = document.getElementById("mainDiv");
+            document.getElementById("visual").innerHTML = "In-Call: On";
+            action = actionType;
+            window.setTimeout("delayedCall()",timeOut);
+        }
+
+
+        function delayedCall()
+        {
+            eval("doAction" + action + "()");
+            ClearVisual();
+        }
+
+        function doAction1()
+        {
+            mainDiv.align = "center";
+        }
+
+        function doAction2()
+        {
+            mainDiv.align = "center";
+            mainDiv.title = "foofoo";
+            mainDiv.lang = "fr";
+        }
+
+        function doAction3()
+        {
+            mainDiv.align = "left";
+        }
+
+        function doAction4()
+        {
+            mainDiv.innerHTML = "Hello";
+        }
+
+        function doAction5()
+        {
+            mainDiv.style.backgroundColor = "blue";
+        }
+
+
+        function doAction6()
+        {
+            mainDiv.className = "CssStyle2";
+        }
+
+        function doAction7()
+        {
+            mainDiv.className = "CssStyle2";
+        }
+
+        function doAction8()
+        {
+            mainDiv.style.visibility = "hidden";
+        }
+
+        function doAction9()
+        {
+            mainDiv.style.visibility = "visible";
+        }
+
+        function ClearVisual()
+        {
+            document.getElementById("visual").innerHTML = "In-Call: Off";
+        }
+
+    </script>
+		
+	</head>
+	<body>
+	    <div id="visual">In-Call: Off</div>
+	    <input type="button" id="cmd1" onclick="doAction(1);" />
+	    <input type="button" id="cmd2" onclick="doAction(2);" />
+	    <input type="button" id="cmd3" onclick="doAction(3);" />
+	    <input type="button" id="cmd4" onclick="doAction(4);" />
+	    <input type="button" id="cmd5" onclick="doAction(5);" />
+	    <input type="button" id="cmd6" onclick="doAction(6);" />
+	    <input type="button" id="cmd7" onclick="doAction(7);" />
+	    <input type="button" id="cmd8" onclick="doAction(8);" />
+	    <input type="button" id="cmd9" onclick="doAction(9);" />
+	    <input type="button" id="cmd10" onclick="doAction(10);" />
+	
+	    <div id="mainDiv" class="CssStyle1" style="border:solid 2pt red; padding:40px">
+	    </div>
+	</body>
+</html>

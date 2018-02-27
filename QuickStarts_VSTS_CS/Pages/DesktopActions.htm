@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<title>DesktopActions</title>
+
+	<script type="text/javascript">
+		
+		function MouseOverEvent(sender)
+		{
+			MessageLabel.innerHTML = "Mouse is over: " + sender.id;
+			sender.style.backgroundColor = "red";
+		}
+		
+		function TextChanged(sender)
+		{
+			MessageLabel.innerHTML = "Text changed to " + sender.value;
+		}
+		
+		function MouseOut(sender)
+		{
+			sender.style.backgroundColor = "";
+		}
+		
+	
+	</script>
+
+</head>
+<body>
+	<table width="100%">
+		<tr>
+			<td id="Cell00" onmousemove="MouseOverEvent(this)" onmouseout="MouseOut(this)">
+				CELL00
+			</td>
+			<td id="Cell01" onmousemove="MouseOverEvent(this)" onmouseout="MouseOut(this)">
+				CELL01
+			</td>
+		</tr>
+		<tr>
+			<td id="Cell10" onmousemove="MouseOverEvent(this)" onmouseout="MouseOut(this)">
+				CELL10
+			</td>
+			<td id="Cell11" onmousemove="MouseOverEvent(this)" onmouseout="MouseOut(this)">
+				CELL11
+			</td>
+		</tr>
+	</table>
+	<h1 id="MessageLabel">
+		Empty</h1>
+	<input id="TextBox" type="text" onchange="TextChanged(this)" />
+</body>
+</html>

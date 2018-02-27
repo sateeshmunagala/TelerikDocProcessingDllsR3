@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>JavaScriptSupport</title>
+		<!-- V Enable Script Logging for WebAii on this Page V -->
+		<script type="text/javascript" src="WebAii_Logging.js"></script>
+		<!-- ^ Enable Script Logging for WebAii on this Page ^ -->
+		
+		<script type="text/javascript" >
+		function Test1()
+		{
+            label.innerHTML = "Test1 Called";		
+		}
+		
+		function Test2(message,number)
+		{
+           label.innerHTML = "Test2 Called: [Message:" + message + ", Number:" + number + "]";
+		}
+		
+		function Test3()
+		{
+		    label.innerHTML = "Test3 Called";
+		    return "Hi from JavaScript";
+		}
+		
+		function Test4()
+		{
+		    label.innerHTML = "Test4 Called: onmouseout Called";
+		}
+		
+		function Test5()
+		{
+		    label.innerHTML = "Test5 Called";
+		    WebAiiLog(LogType.Information,"Test5: Log this message!");
+		}
+		</script>
+	</head>
+	<body>
+	    <h1 id="label" onmouseout="Test4()">Empty</h1>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+<%@ Master Language="C#" %>
+<%@ Register Assembly="ArtOfTest.WebAii.AspNet" Namespace="ArtOfTest.WebAii.AspNet.WebControls"
+    TagPrefix="test" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Using AspNet With TestRegions</title>
+</head>
+<body style=" background-image:url(Images/bg.jpg); background-repeat:no-repeat; font-family:Tahoma">
+    <form id="form1" runat="server">
+
+        <!-- The Root TestRegion for this application -->
+        <test:TestRegion ID="WebApp" runat='server'>
+            <table width="100%" style="height:100%">
+                <tr>
+                    <td align="center">
+                        <img src="Images/banner.jpg" alt="banner" /></td>
+                </tr>
+                <tr >
+                    <td  align="center" valign="middle" >
+                        <asp:ContentPlaceHolder ID="PageContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+        </test:TestRegion>
+        <!-- The Root TestRegion for this application -->
+
+    </form>
+</body>
+</html>
